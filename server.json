@@ -10,7 +10,7 @@
   "packages": [
     {
       "registryType": "npm",
-      "identifier": "ruff-lint-x402-mcp",
+      "identifier": "@divine-software-creations/ruff-lint-x402-mcp",
       "version": "1.0.0",
       "transport": {
         "type": "stdio"

@@ -1,17 +1,24 @@
 {
-  "name": "ruff-lint-x402-mcp",
+  "name": "@divine-software-creations/ruff-lint-x402-mcp",
   "version": "1.0.0",
   "description": "MCP server: lint Python with ruff via a pay-per-call x402 API ($0.005 USDC on Base)",
   "mcpName": "io.github.Divine-Software-Creations/ruff-lint-x402",
   "type": "module",
-  "bin": { "ruff-lint-x402-mcp": "index.js" },
-  "files": ["index.js"],
+  "bin": {
+    "ruff-lint-x402-mcp": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/Divine-Software-Creations/ruff-lint-x402-mcp" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divine-Software-Creations/ruff-lint-x402-mcp.git"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.20.0",
-    "@x402/fetch": "^2.0.0",
     "@x402/evm": "^2.0.0",
+    "@x402/fetch": "^2.0.0",
     "viem": "^2.21.0",
     "zod": "^3.23.8"
   }

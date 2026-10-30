@@ -6,4 +6,4 @@ startCommand:
     properties:
       evmPrivateKey: { type: string, description: "Base wallet private key holding USDC (pays $0.005/call)" }
   commandFunction: |-
-    (config) => ({ command: 'npx', args: ['-y', 'ruff-lint-x402-mcp'], env: { EVM_PRIVATE_KEY: config.evmPrivateKey } })
+    (config) => ({ command: 'npx -y @divine-software-creations/ruff-lint-x402-mcp'], env: { EVM_PRIVATE_KEY: config.evmPrivateKey } })
