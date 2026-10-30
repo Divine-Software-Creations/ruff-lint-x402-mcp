@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.Divine-Software-Creations/ruff-lint-x402",
+  "description": "Lint Python with ruff via a pay-per-call x402 API ($0.005 USDC on Base).",
+  "repository": {
+    "url": "https://github.com/Divine-Software-Creations/ruff-lint-x402-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ruff-lint-x402-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "EVM_PRIVATE_KEY",
+          "description": "Private key of a Base wallet with USDC used to pay per call",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
