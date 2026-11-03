@@ -1,14 +1,15 @@
 {
   "name": "@divine-software-creations/ruff-lint-x402-mcp",
-  "version": "1.0.0",
-  "description": "MCP server: lint Python with ruff via a pay-per-call x402 API ($0.005 USDC on Base)",
+  "version": "1.0.1",
+  "description": "Ruff Python lint API for AI agents: MCP server with pay-per-call x402 billing ($0.005 USDC on Base). No API key, no signup.",
   "mcpName": "io.github.Divine-Software-Creations/ruff-lint-x402",
   "type": "module",
   "bin": {
     "ruff-lint-x402-mcp": "index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ],
   "license": "MIT",
   "repository": {
@@ -21,5 +22,23 @@
     "@x402/fetch": "^2.0.0",
     "viem": "^2.21.0",
     "zod": "^3.23.8"
-  }
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ruff",
+    "python",
+    "lint",
+    "linter",
+    "x402",
+    "ai-agents",
+    "claude",
+    "cursor",
+    "base",
+    "usdc",
+    "code-quality",
+    "static-analysis"
+  ],
+  "homepage": "https://stevensaavedra.com/lint"
 }
