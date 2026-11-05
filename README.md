@@ -9,7 +9,7 @@ Give any AI agent instant Python linting with [ruff](https://github.com/astral-s
 - 🤖 Agent-native: MCP tool `lint_python` for Claude, Cursor, Windsurf, Gemini/Antigravity and any MCP client
 - 💸 Pay only for what you use; the facilitator covers gas, so your wallet only needs USDC
 
-Landing page: https://stevensaavedra.com/lint · API: `POST https://api.stevensaavedra.com/lint`
+Landing page: https://stevensaavedra.com/lint · API: `POST https://api.stevensaavedra.com/lint` · Verified on [PayAPI Market](https://payapi.market/api/ruff-python-lint)
 
 ## MCP install
 
